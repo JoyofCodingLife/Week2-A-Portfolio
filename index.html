@@ -9,15 +9,16 @@
 
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 
 <body>
+   <!-- NAVIGATION BAR -->    
    <header>
-     <!-- NAVIGATION BAR -->
      <nav class="navbar">
          <div class="max-width">
-              <div class="logo"><a href="#">LARA KOROLYOVA</a></div>
+              <div class="logo"><a href="#">Portfolio</a></div>
               <ul class="menu">
                   <li><a href="#home" class="menu-button">Home</a></li>
                   <li><a href="#about" class="menu-button">About</a></li>        
@@ -30,41 +31,127 @@
    </header>
 
     <!-- HOME SECTION -->
-    <section class="home" id="home">
+    <main class="home" id="home">
         <div class="max-width">
             <div class="home-content">
-                <div class="text-1">Hello, my name is</div>
+                <div class="text-1">Welcome, my name is</div>
+                <br>
                 <div class="text-2">Lara Korolyova</div>
-                <div class="text-3">And I am a WebDeveloper</div>
+                <br>
+                <div class="text-3">And I am a <span>WebDeveloper</span></div>
             </div>
+        </div>
+    </main>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+       <div class="max-width">
+           <div class="title">About me</div>
+           <div class="about-content row justify-center">               
+               <!-- PHOTO PART -->
+               <div class="profile-photo">
+                    <img id="profile-photo" 
+                    src="assets/images/myprofile2.jpg" 
+                    alt="photo of me smilling">
+               </div>
+              
+               <!-- ABOUT ME PART -->
+               <div class=about-me>
+                   My name is Larysa or Lyalka, or Lyalya, or Larachka and so many more,
+                   <br>
+                   but you can call me <span>Lara</span>.
+                   <br><br>
+                   I was born in Ukraine, Odessa in 1990. 
+                   <br>
+                   I moved to Australia, Melbourne in 2010.
+                   <br><br>
+                   I am an Accountant by degree.
+                   <br><br>
+                   I am an Logistics Specialist by profession.
+                   <br><br>
+                   I am a Web Developer by passion.
+                   <br><br>
+                   I speak 4 human languages: Ukrainian, Russian, French, English.
+                   <br><br>
+                   I am learning unhuman languages too: HMTL, CSS, JavaScript.
+               </div>
+        
+                    
+               </div>
+            </div>
+       </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+    <section class="portfolio" id="portfolio">
+       <div class="max-width">
+            <div class="title">Portfolio</div>
+            <div class="portfolio-content">
+                I’m forever creating design work for both myself as personal projects and as a hired gun for clients from around the world. Here’s a few of my most recent works.
+            </div>
+
+            <div class="first-application">
+                <a href="#">
+                 <img src="assets/images/first-app.png" alt="Firt Application Coming Soon" />
+               </a>
+            </div>
+            
+            <div class="portfolio-list row justufy-center">
+                <div class="portfolio-item">
+	             	<a href="#">
+                     <img src="assets/images/coming-soon1.png" alt="Project Coming Soon"/></a>
+	            </div>
+                <div class="portfolio-item">
+                    <a href="#">
+                     <img src="assets/images/coming-soon2.png" alt="Project Coming Soon"/></a>
+	            </div>
+                <div class="portfolio-item">
+                    <a href="#">
+                     <img src="assets/images/coming-soon1.png" alt="Project Coming Soon"/></a>
+	            </div>
+                <div class="portfolio-item">
+                    <a href="#">
+                     <img src="assets/images/coming-soon2.png" alt="Project Coming Soon"/></a>
+	            </div>
+                <div class="portfolio-item">
+                    <a href="#">
+                     <img src="assets/images/coming-soon1.png" alt="Project Coming Soon"/></a>
+	            </div>
+                <div class="portfolio-item">
+                    <a href="#">
+                     <img src="assets/images/coming-soon2.png" alt="Project Coming Soon"/></a>
+	            </div>
+            </div>
+       </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <div class="title">My Skills</div>
+            This section is still in progress. 
         </div>
     </section>
 
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <div class="title">Contact Me</div>
+        </div>
 
 
+        </div>
+    </section>
 
-  <footer>
-<!-- SOCIAL LINKES -->
-    <div id="social links">
-      <a href="https://www.linkedin.com/in/korolyova/">
-      </a>
+        <div class="icon-bar">
+         <a href="https://www.linkedin.com/in/korolyova/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+         <a href="https://github.com/JoyofCodingLife/" class="github"><i class="fa fa-github"></i></a>         
+         <a href="https://www.facebook.com/lara.larysa.lyalka/" class="facebook"><i class="fa fa-facebook"></i></a>
+        </div>
 
-      <a href="https://www.facebook.com/lara.larysa.lyalka/">
-      </a>
-
-      <a href="https://www.instagram.com/lara.larysa.lyalka/">
-      </a>
-
-      <a href="https://github.com/JoyofCodingLife/">
-      </a>
-
-    </div>
-
-    <div id="footnote">
-        LARA KOROLYOVA<span class="highlight">©2021</span>
-    </div>
-
-  </footer>
+    <footer>
+       LARA KOROLYOVA ©2021
+    </footer>
 
 </body>
 
