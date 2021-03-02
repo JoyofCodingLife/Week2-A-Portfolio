@@ -1,0 +1,69 @@
+/* IMPORT OF FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Lemon&family=Vast+Shadow&display=swap');
+
+/* GLOBAL STYLING */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #000;
+}
+
+:root {
+    --white: #fff;
+    --teal: #13b3c4;
+
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+/* NAVIGATION BAR STYLING */
+
+.navbar{
+    background: var(--teal);
+    position: fixed;
+    width: 100%;
+    font-family: 'Lemon', cursive;
+    padding: 20px 0px;
+
+}
+
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    color: var(--white);
+    font-size: 40px;
+}
+
+ .navbar .menu li {
+     list-style: none;
+     display: inline-block;
+ }
+
+ .navbar .menu li a{
+    color: var(--white);
+    font-size: 16px;
+    margin-left: 16px;
+ }
+
+ .navbar .menu li a:hover {
+    color: black;
+    font-size: x-large;
+ }
+
+ /* HOME SECTION STYLING */
+ .home {
+     display: flex;
+     background: url("../images/banner.jpg") no-repeat center;
+     height: 100vh;
+ }
+ 
