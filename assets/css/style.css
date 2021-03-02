@@ -29,7 +29,7 @@ section {
     padding: 10px 0px;
     margin: 10px auto;
     width: 95%;
-    display:inline-flex;
+    display: inline-flex;
 }
 
 section .title{
@@ -135,9 +135,12 @@ footer {
 .profile-photo{
     display: flex;
     flex-direction: column;    
+    margin: 0 15px 15px 0;
+}
+
+.profile-photo img{
     height: 400px;
     width: 400px;
-    margin: 0 15px 15px 0;
 }
 
 .about-me span {
