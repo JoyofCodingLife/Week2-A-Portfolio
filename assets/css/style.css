@@ -11,21 +11,20 @@ font-family: 'Open Sans', sans-serif;
 */
 
 /* RESPONSIVE LAYOUT */
+
+/* 
 @media screen and (min-width: 768px) {
-    /* on tablets, set columns to only be 50% of the width and not grow */
     .portfolio-list {
       flex: 0 0 50%;
       max-width: 50%;
     }
-  
-    /* select the last child to grow to full width if it has space to grow */
-    .portfolio-list:last-child {
+
+  .portfolio-list:last-child {
       flex-grow: 1;
     }
   }
   
-  /* media query for larger screens */
-  @media screen and (min-width: 992px) {
+ @media screen and (min-width: 992px) {
     header {
       width: 75%;
     }
@@ -35,6 +34,7 @@ font-family: 'Open Sans', sans-serif;
       max-width: 33.333%;
     }
   }
+*/
 
 /* GLOBAL STYLING */
 *{
@@ -72,12 +72,14 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/*
 section {
     padding: 10px 0px;
     margin: 1rem auto;
     width: 100%;
     display: inline-flex;
 }
+*/
 
 .title {
     position: relative;
