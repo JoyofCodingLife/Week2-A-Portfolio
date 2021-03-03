@@ -191,6 +191,7 @@ img {
     padding: 20px 0;
 }
 
+/*  
 .portfolio-list{
     flex: 1 0 100%;
     padding: 5px;
@@ -205,6 +206,12 @@ img {
     min-height: auto;
     padding: 5px;
     margin: 5px;
+} 
+*/
+
+.portfolio-list{
+    float: left;
+    padding: 10px;
 }
 
 .portfolio-item img {
@@ -219,7 +226,7 @@ img {
 /* SKILLS SECTION STYLE */
 .skills {
     float: left;
-    width: 33.33%;
+   /* width: 33.33%; */
     padding: 10px;
     text-align: center;
     list-style: none;
