@@ -7,7 +7,7 @@
 ## Table of Contents
 * [General Info](#general-info)
 * [Live URL](#live-url)
-* [Walkthrough or What have done so far](#walkthrough)
+* [Walkthrough or What have I done so far](#walkthrough)
 * [Looking for some help](#Help-Me-Please)
 * [Webpage Preview](#webpage-preview)
 * [Contributing](#contributing)
