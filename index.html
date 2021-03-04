@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Welcome to my Portfolio</title>
 
@@ -39,14 +39,13 @@
         </div>
     </main>
 
-  
-    <div class="row justify-center">
+    <div class="about row justify-center">
         <!-- ABOUT ME SECTION -->  
-        <div class="side" id="about">
-            <div class="title">About Me</div>
+        <div class="aside" id="about">
+            <h2>About Me</h2>
             <img src="assets/images/myprofile2.jpg" alt="Photo of me smilling">
             <div class="about">
-                <div class="subtitle">STATS AND VITALS</div>
+                <h3>STATS AND VITALS</h3>
                  <p><span>0 - 19</span> Born, raised & brewed in <span>Odessa</span>, Ukraine.</p> 
                  <p><span>20 - present</span> Grown up & chasing my dreams in <span>Melbounre</span>, Australia.</p>  
                  <br>
@@ -54,67 +53,63 @@
             </div>
         </div>
         
-        <!-- MAIN APPLICATION SECTION -->
-        <div class="main">
+        <!-- HIGHLIGHT APPLICATION SECTION -->
+        <div class="showcase">
             <section class="highlight" id="highlight">
-                <div class="max-width">
-                    <div class="title">Portfolio</div>
+                <div class="row justify-center">
+                    <h2>Portfolio</h2>
                     <p> 
                      I’m forever learning and creating. I develop for both myself as personal projects and as a freelancer for clients from around the world. 
                      <br> <br>
                      Here’s a few of my most recent works.
                     </p>
                     <a class="first-application" href="#">
-                     <img src="assets/images/first-app.jpg" alt="Firt Application Coming Soon"/>
+                     <img src="assets/images/first application soon to come.png" alt="Firt Application Coming Soon"/>
                     </a>
                 </div>
+            </section>
+            <!-- PORTFOLIO SECTION -->
+            <section class="portfolio" id="portfolio">
+                <div class="row justify-center">
+                        <figure class="portfolio-item">
+                             <a href="#"><img src="assets/images/coming-soon1.png" alt="Project Coming Soon"/></a>
+                        </figure>
+
+                        <figure class="portfolio-item">
+                            <a href="#"><img src="assets/images/coming-soon2.png" alt="Project Coming Soon"/></a>
+                        </figure>
+
+                        <figure class="portfolio-item">
+                            <a href="#"><img src="assets/images/coming-soon1.png" alt="Project Coming Soon"/></a>
+                       </figure>
+
+                       <figure class="portfolio-item">
+                           <a href="#"><img src="assets/images/coming-soon2.png" alt="Project Coming Soon"/></a>
+                       </figure>
+
+                       <figure class="portfolio-item">
+                             <a href="#"><img src="assets/images/coming-soon1.png" alt="Project Coming Soon"/></a>
+                       </figure>
+
+                       <figure class="portfolio-item">
+                            <a href="#"><img src="assets/images/coming-soon2.png" alt="Project Coming Soon"/></a>
+                       </figure>
+                    
+               </div>
             </section>
         </div>
     </div>
 
-    <!-- PORTFOLIO SECTION -->
-    <section class="portfolio" id="portfolio">
-        <div class="row justify-center">
-            <div class="portfolio-list ">
-                <figure class="portfolio-item">
-	             	<a href="#">
-                         <img src="assets/images/coming-soon1.png" alt="Project Coming Soon"/></a>
-	            </figure>
-                <figure class="portfolio-item">
-                    <a href="#"> 
-                        <img src="assets/images/coming-soon2.png" alt="Project Coming Soon"/></a>
-	            </figure>
-                <figure class="portfolio-item">
-                    <a href="#">
-                        <img src="assets/images/coming-soon1.png" alt="Project Coming Soon"/></a>
-               </figure>
-               <figure class="portfolio-item">
-                   <a href="#"> 
-                       <img src="assets/images/coming-soon2.png" alt="Project Coming Soon"/></a>
-               </figure>
-               <figure class="portfolio-item">
-	             	<a href="#">
-                        <img src="assets/images/coming-soon1.png" alt="Project Coming Soon"/></a>
-	           </figure>
-               <figure class="portfolio-item">
-                    <a href="#"> 
-                        <img src="assets/images/coming-soon2.png" alt="Project Coming Soon"/></a>
-	           </figure>
-
-            </div>
-       </div>
-    </section>
-
     <!-- SKILLS SECTION -->
     <section id="skills">
         <div class="max-width">
-             <div class="title">My Skills</div>
+             <h2>My Skills</h2>
         </div>
     </section>  
 
     <div class="row justify-center">
        <div class="skills">
-         <h2><i class="fas fa-globe"></i> MY HUMAN LANGUAGES</h2>  
+         <h4><i class="fas fa-globe"></i> MY HUMAN LANGUAGES</h4>  
          <li>Ukrainian</li>  
          <li>Russian</li>  
          <li>French</li>  
@@ -122,14 +117,14 @@
        </div>
 
        <div class="skills">
-         <h2><i class="fas fa-book"></i> MY EXPERTISES</h2>
+         <h4><i class="fas fa-book"></i> MY EXPERTISES</h4>
          <li>Accounting</li>            
          <li>Logistics</li>  
          <li>Management</;>  
        </div>
 
        <div class="skills">
-         <h2><i class="fas fa-laptop-code"></i> MY NON HUMAN LANGUAGES</h2>  
+         <h4><i class="fas fa-laptop-code"></i> MY NON HUMAN LANGUAGES</h4>  
          <li>HTML</li>  
          <li>CSS</li>
          <li>JavaScript</li>
@@ -139,7 +134,7 @@
     <!-- CONTACT SECTION -->
     <section class="contact" id="contact">
         <div class="max-width">
-            <div class="title">Contact Me</div>
+            <h2>Contact Me</h2>
             <form action="action_page.php">
 
                 <label for="fname">First Name</label>

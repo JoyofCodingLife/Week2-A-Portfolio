@@ -11,30 +11,15 @@ font-family: 'Open Sans', sans-serif;
 */
 
 /* RESPONSIVE LAYOUT */
-@media screen and (min-width: 768px) {
-    /* on tablets, set columns to only be 50% of the width and not grow */
-    .portfolio-list {
-      flex: 0 0 50%;
-      max-width: 50%;
+@media screen and (min-width:700px) (max-width:900px) {
+    .aside, .showcase, .row {
+      width: 100%;
+    };
+    .navbar {
+    text-align: center;
+    background: black;
     }
-  
-    /* select the last child to grow to full width if it has space to grow */
-    .portfolio-list:last-child {
-      flex-grow: 1;
-    }
-  }
-  
-  /* media query for larger screens */
-  @media screen and (min-width: 992px) {
-    header {
-      width: 75%;
-    }
-  
-    .portfolio-list {
-      flex: 0 0 33.333%;
-      max-width: 33.333%;
-    }
-  }
+}
 
 /* GLOBAL STYLING */
 *{
@@ -79,7 +64,7 @@ section {
     display: inline-flex;
 }
 
-.title {
+title, h2 {
     position: relative;
     text-align: center;
     font-weight: 500;
@@ -88,7 +73,6 @@ section {
     font-family: 'Lemonada', cursive; 
     font-size: 25px;
 }
-
 
 img {
     width: 100%;
@@ -149,19 +133,17 @@ img {
 }
 
 /* ABOUT ME SECTION STYLE */
-.side {
+.aside {
     flex: 30%;
     padding: 20px;
 }
 
 .about {
-    margin: 10px;
+    margin-left: 18px;
     line-height: 1.8;
 }
-.subtitle {
+h3 {
     color: var(--teal);
-    font-weight: bold;
-    font-size: 18px;
 }
 
 .about span {
@@ -169,8 +151,8 @@ img {
     font-weight: bold;
 }
 
-/* MAIN APPLICATION SECTION STYLE */
-.main {   
+/* HIGHLIGHT APPLICATION SECTION STYLE */
+.showcase {   
     flex: 70%;
     padding: 20px;
 }
@@ -188,32 +170,23 @@ img {
 /* PORTFOLIO SECTION STYLE */
 .portfolio {
     background-color: var(--teal);
-    padding: 20px 0;
-}
-
-.portfolio-list{
-    flex: 1 0 100%;
-    padding: 5px;
-    transition: flex-basis 500ms linear;
-    margin-bottom: 1.5rem;
+    padding: 15px 0;
 }
 
 .portfolio-item {
     float: left;
-    display:block;
-    flex-direction:row;
-    min-height: auto;
+    width: 33.33%;
     padding: 5px;
-    margin: 5px;
 }
 
-.portfolio-item img {
-    height: 150px;
-    width: 150px;
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .portfolio-item:hover {
-    box-shadow: inset 0px 0px 5px var(--pink), 0 0 50px var(--pink);
+    box-shadow: inset 0px 0px 20px var(--pink), 0 0 50px var(--pink);
 }
 
 /* SKILLS SECTION STYLE */
@@ -225,7 +198,11 @@ img {
     list-style: none;
 }
 
-/* CONTACT ME SECTION STYLE */
+h4 {
+    color: var(--teal);
+}
+
+/* CONTACT SECTION STYLE */
 .contact {
     border-radius: 5px;
     background-color: var(--teal);
@@ -257,7 +234,7 @@ input[type=submit]:hover {
     background-color: var(--pink);
 }
   
-/* ICON BAR */
+/* SOCIAL MEDIA ICONS STYLES */
 .icon-bar {
     position: fixed;
     top: 50%;
