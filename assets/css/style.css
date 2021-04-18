@@ -10,10 +10,8 @@ text
 font-family: 'Open Sans', sans-serif;
 */
 
-
-
-/* GLOBAL STYLING */
-*{
+/* GLOBAL */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -26,30 +24,15 @@ font-family: 'Open Sans', sans-serif;
     --pink: rgb(237, 0, 162);
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-  justify-content: center;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 body {
     font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
 }
 
 section {
     padding: 10px 0px;
-    margin: 1rem auto;
-    width: 100%;
-    display: inline-flex;
+    margin: auto;
+    display: block;
 }
 
 title, h2 {
@@ -65,13 +48,33 @@ img {
     width: 100%;
 }  
 
-.max-width{
+.max-width { 
     max-width: 1300px;
     padding: 0 80px;
     margin: auto;
 }
 
-/* NAVIGATION BAR STYLE */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    justify-content: center;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+  
+/* NAVIGATION BAR */
 .navbar{
     background: var(--teal);
     position: fixed;
@@ -90,19 +93,19 @@ img {
 .navbar a:hover {
     color: black;
     font-size: 16px;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
-/* HOME SECTION STYLE */
+/* HOME SECTION */
 .home {
-     display: flex;
-     background: url("../images/banner2.jpg") no-repeat center;
-     height: 100vh;
-     min-height: 500px;
-     background-size: cover;
-     background-attachment: fixed;
-     font-family: 'Lemonada', cursive;
-     font-size: 30px;
+    display: flex;
+    background: url("../images/banner2.jpg") no-repeat center;
+    height: 100vh;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Lemonada', cursive;
+    font-size: 30px;
 }
 
 .home .max-width{
@@ -119,15 +122,17 @@ img {
     font-weight: bold;
 }
 
-/* ABOUT ME SECTION STYLE */
+/* ABOUT ME SECTION  */
 .aside {
     flex: 30%;
     padding: 20px;
 }
 
 .about {
-    margin-left: 18px;
-    line-height: 1.8;
+    margin-left: 10px;
+}
+.about p {
+    padding: 10px 0;
 }
 
 h3 {
@@ -139,11 +144,12 @@ h3 {
     font-weight: bold;
 }
 
-/* HIGHLIGHT APPLICATION SECTION STYLE */
+/* HIGHLIGHT SECTION */
 .showcase {   
     flex: 70%;
     padding: 20px;
 }
+
 .first-application {
     display: block;
     width: 100%;
@@ -155,7 +161,7 @@ h3 {
     box-shadow: inset 0px 0px 5px var(--pink), 0 0 50px var(--pink);
 }
 
-/* PORTFOLIO SECTION STYLE */
+/* PORTFOLIO SECTION */
 .portfolio {
     background-color: var(--teal);
     padding: 15px 0;
@@ -179,11 +185,11 @@ h3 {
 
 /* SKILLS SECTION STYLE */
 .skills {
-    float: left;
-    width: 33.33%;
+    flex: 33.33%;
     padding: 10px;
     text-align: center;
     list-style: none;
+    line-break: normal;
 }
 
 h4 {
@@ -197,10 +203,6 @@ h4 {
     padding: 20px;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-}
-
-#myEmail {
-    line-height: 35px;
 }
 
 #myEmail a {
@@ -259,12 +261,31 @@ footer {
 }
 
 /* RESPONSIVE LAYOUT */
-@media screen and (min-width:700px) (max-width:900px) {
-    .aside, .showcase, .row {
-      width: 100%;
-    };
+@media (max-width: 800px) {
+    .aside, .showcase {
+        width: 100%;
+    }
+
     .navbar {
-    text-align: center;
-    background: black;
+      text-align: center;
+      line-height: 1.8;
+      background-color: black;
+    }
+
+    .navbar a {
+        color: var(--teal);
+    }
+
+    .navbar a:hover{
+        color: var(--white);
+    }
+
+    .flex-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .skills {
+    width: auto;
     }
 }

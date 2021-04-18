@@ -13,7 +13,6 @@
 </head>
 
 <body>
-
    <!-- NAVIGATION BAR -->    
     <nav class="navbar">
          <div class="max-width">
@@ -37,22 +36,24 @@
         </div>
     </main>
 
-    <div class="about row">
+    <div class="row">
+
         <!-- ABOUT ME SECTION -->  
-        <div class="aside" id="aboutSection">
-            <h2>About Me</h2>
+        <section class="aside" id="aboutSection">
             <img src="assets/images/myprofile2.jpg" alt="Photo of me smiling">
+            <h2>About Me</h2>
             <div class="about">
                 <h3>STATS AND VITALS</h3>
                  <p><span>0 - 19</span> Born, raised & brewed in <span>Odessa</span>, Ukraine.</p> 
                  <p><span>20 - present</span> Grown up & chasing my dreams in <span>Melbourne</span>, Australia.</p>  
                  <p><span>Passions & Favourites:</span> Hardcover books, Marvel, Gaming, Violin, Piano, Teas, Cheeses, Classical Music, Art.</p> 
             </div>
-        </div>
+        </section>
         
-        <!-- HIGHLIGHT APPLICATION SECTION -->
-        <div class="showcase">
-            <section class="highlight" id="highlightSection">
+        <!-- PORTFOLIO WORK SECTION -->
+        <section class="showcase" id="highlightSection">
+            <!-- HIGHLIGHT APPLICATION -->
+            <div class="highlight" >
                 <div class="row">
                     <h2>Portfolio</h2>
                     <p> 
@@ -63,9 +64,10 @@
                      <img src="assets/images/first application soon to come.png" alt="First Application Coming Soon"/>
                     </a>
                 </div>
-            </section>
-            <!-- PORTFOLIO SECTION -->
-            <section class="portfolio" id="portfolioSection">
+            </div>
+            
+            <!-- OTHER APPLICATIONS   -->
+            <div class="portfolio" id="portfolioSection">
                 <div class="row">
                         <figure class="portfolio-item">
                              <a href="#"><img src="assets/images/coming-soon1.png" alt="Project Coming Soon"/></a>
@@ -89,43 +91,41 @@
 
                        <figure class="portfolio-item">
                             <a href="#"><img src="assets/images/coming-soon2.png" alt="Project Coming Soon"/></a>
-                       </figure>
-                    
+                       </figure> 
                </div>
-            </section>
-        </div>
+            </div>
+        </section>
     </div>
 
     <!-- SKILLS SECTION -->
     <section id="skillsSection">
-        <div class="max-width">
-             <h2>My Skills</h2>
-        </div>
-    </section>  
+        <h2>My Skills</h2>
+        <div class="flex-container">
+           <div class="skills">
+             <h4><i class="fas fa-globe"></i> MY HUMAN LANGUAGES</h4>  
+             <li>Ukrainian</li>  
+             <li>Russian</li>  
+             <li>French</li>  
+             <li>English</li>  
+           </div>
 
-    <div class="row">
-       <div class="skills">
-         <h4><i class="fas fa-globe"></i> MY HUMAN LANGUAGES</h4>  
-         <li>Ukrainian</li>  
-         <li>Russian</li>  
-         <li>French</li>  
-         <li>English</li>  
-       </div>
+           <div class="skills">
+             <h4><i class="fas fa-book"></i> MY EXPERTISES</h4>
+             <li>Accounting</li>            
+             <li>Logistics</li>  
+             <li>Management</li>  
+           </div>
 
-       <div class="skills">
-         <h4><i class="fas fa-book"></i> MY EXPERTISES</h4>
-         <li>Accounting</li>            
-         <li>Logistics</li>  
-         <li>Management</li>  
-       </div>
-
-       <div class="skills">
-         <h4><i class="fas fa-laptop-code"></i> MY NON HUMAN LANGUAGES</h4>  
-         <li>HTML</li>  
-         <li>CSS</li>
-         <li>JavaScript</li>
-       </div>
-    </div>    
+           <div class="skills">
+             <h4><i class="fas fa-laptop-code"></i> MY NON HUMAN LANGUAGES</h4>  
+             <li>HTML</li>  
+             <li>CSS</li>
+             <li>JavaScript</li>
+             <li>jQuery</li>
+             <li>Node</li>
+           </div>
+        </div>    
+    </section>
 
     <!-- CONTACT SECTION -->
     <section class="contact" id="contactSection">
