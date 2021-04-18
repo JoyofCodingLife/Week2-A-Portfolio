@@ -7,8 +7,7 @@
 ## Table of Contents
 * [General Info](#general-info)
 * [Live URL](#live-url)
-* [Walkthrough or What have I done so far](#walkthrough)
-* [Looking for some help](#Help-Me-Please)
+* [Walkthrough or What have done so far](#walkthrough)
 * [Webpage Preview](#webpage-preview)
 * [Contributing](#contributing)
 * [Notes](#notes)
@@ -27,21 +26,14 @@ All recommendations, hints and comments are very welcome.
 <br>
 
 ### Live URL
-https://joyofcodinglife.github.io/Week2-A-Portfolio/
+https://KorolyovaLara.github.io/Week2-A-Portfolio/
 
 <br>
 
 ## Walkthrough
-- Desing is simple (I believe) and nicely flowing into next sections.
+- Design is simple (I believe) and nicely flowing into next sections.
 - Navbar is sticky, with all links are working and changing color when hovered.
 - Home screen is taking all space regardless of screen size.
-
-
-<br>
-
-## Please Help Me
-1. Can't find why the sections' titles are showing over the navbar when scrolled.
-2. Can't figure out why the layout is now responsive and doesn't adapt to screensize (I tried many varietions, and even restyled the sections over and over again).
 
 <br>
 

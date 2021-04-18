@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <title>Welcome to my Portfolio</title>
-
+    
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <script src="https://kit.fontawesome.com/1228d6a68f.js" crossorigin="anonymous"></script>
+
+    <title>Welcome to my Portfolio</title>
 </head>
 
 <body>
@@ -17,60 +17,56 @@
    <!-- NAVIGATION BAR -->    
     <nav class="navbar">
          <div class="max-width">
-                  <a href="#home">Home</a>
-                  <a href="#about">About</a>
-                  <a href="#highlight">Highlight</a>
-                  <a href="#portfolio">Portfolio</a>
-                  <a href="#skills">Skills</a> 
-                  <a href="#contact">Contact</a>
+                  <a href="#homeSection">Home</a>
+                  <a href="#aboutSection">About</a>
+                  <a href="#highlightSection">Highlight</a>
+                  <a href="#portfolioSection">Portfolio</a>
+                  <a href="#skillsSection">Skills</a> 
+                  <a href="#contactSection">Contact</a>
          </div>
     </nav>
    
     <!-- HOME SECTION -->
-    <main class="home" id="home">
+    <main class="home" id="homeSection">
         <div class="max-width">
             <div class="home-content">
                 <div class="text-1">Welcome, my name is</div>
-                <br>
                 <div class="text-2">Lara Korolyova</div>
-                <br>
                 <div class="text-3">And I am a <span>WebDeveloper</span></div>
             </div>
         </div>
     </main>
 
-    <div class="about row justify-center">
+    <div class="about row">
         <!-- ABOUT ME SECTION -->  
-        <div class="aside" id="about">
+        <div class="aside" id="aboutSection">
             <h2>About Me</h2>
-            <img src="assets/images/myprofile2.jpg" alt="Photo of me smilling">
+            <img src="assets/images/myprofile2.jpg" alt="Photo of me smiling">
             <div class="about">
                 <h3>STATS AND VITALS</h3>
                  <p><span>0 - 19</span> Born, raised & brewed in <span>Odessa</span>, Ukraine.</p> 
-                 <p><span>20 - present</span> Grown up & chasing my dreams in <span>Melbounre</span>, Australia.</p>  
-                 <br>
-                 <p><span>Passions & Favorites:</span> Hardcover books, Marvel, Gaming, Violin, Piano, Teas, Cheeses, Classical Music, Art.</p> 
+                 <p><span>20 - present</span> Grown up & chasing my dreams in <span>Melbourne</span>, Australia.</p>  
+                 <p><span>Passions & Favourites:</span> Hardcover books, Marvel, Gaming, Violin, Piano, Teas, Cheeses, Classical Music, Art.</p> 
             </div>
         </div>
         
         <!-- HIGHLIGHT APPLICATION SECTION -->
         <div class="showcase">
-            <section class="highlight" id="highlight">
-                <div class="row justify-center">
+            <section class="highlight" id="highlightSection">
+                <div class="row">
                     <h2>Portfolio</h2>
                     <p> 
                      I’m forever learning and creating. I develop for both myself as personal projects and as a freelancer for clients from around the world. 
-                     <br> <br>
                      Here’s a few of my most recent works.
                     </p>
                     <a class="first-application" href="#">
-                     <img src="assets/images/first application soon to come.png" alt="Firt Application Coming Soon"/>
+                     <img src="assets/images/first application soon to come.png" alt="First Application Coming Soon"/>
                     </a>
                 </div>
             </section>
             <!-- PORTFOLIO SECTION -->
-            <section class="portfolio" id="portfolio">
-                <div class="row justify-center">
+            <section class="portfolio" id="portfolioSection">
+                <div class="row">
                         <figure class="portfolio-item">
                              <a href="#"><img src="assets/images/coming-soon1.png" alt="Project Coming Soon"/></a>
                         </figure>
@@ -101,13 +97,13 @@
     </div>
 
     <!-- SKILLS SECTION -->
-    <section id="skills">
+    <section id="skillsSection">
         <div class="max-width">
              <h2>My Skills</h2>
         </div>
     </section>  
 
-    <div class="row justify-center">
+    <div class="row">
        <div class="skills">
          <h4><i class="fas fa-globe"></i> MY HUMAN LANGUAGES</h4>  
          <li>Ukrainian</li>  
@@ -120,7 +116,7 @@
          <h4><i class="fas fa-book"></i> MY EXPERTISES</h4>
          <li>Accounting</li>            
          <li>Logistics</li>  
-         <li>Management</;>  
+         <li>Management</li>  
        </div>
 
        <div class="skills">
@@ -132,33 +128,19 @@
     </div>    
 
     <!-- CONTACT SECTION -->
-    <section class="contact" id="contact">
+    <section class="contact" id="contactSection">
         <div class="max-width">
-            <h2>Contact Me</h2>
-            <form action="action_page.php">
-
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
-            
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-            
-                <label for="emailaddress">Phone Number</label>
-                <input type="text" id="emailaddress" name="emailaddress" placeholder="Your email address..">
-            
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-            
-                <input type="submit" value="Submit">
-            
-              </form>
+        <h2>Get in touch</h2>
+        <p>If you wanna get in touch, talk to me about a project collaboration or just say hi, send an email and let's talk.</p>
+        <p id="myEmail"><i class="far fa-envelope"></i><a href="mailto:korolyovalara@gmail.com"> KorolyovaLara@gmail.com</a></p>
+        <p>You can find me on Linkedin and GitHub, by clinking on the side bar icons.</p>
         </div>
     </section>
 
     <!-- SOCIAL MEDIA ICONS -->
     <div class="icon-bar">
          <a href="https://www.linkedin.com/in/korolyova/" class="linkedin"><i class="fab fa-linkedin"></i></a>
-         <a href="https://github.com/JoyofCodingLife/" class="github"><i class="fab fa-github"></i></a>         
+         <a href="https://github.com/KorolyovaLara/" class="github"><i class="fab fa-github"></i></a>         
          <a href="https://www.facebook.com/lara.larysa.lyalka/" class="facebook"><i class="fab fa-facebook"></i></a>
     </div>
 
