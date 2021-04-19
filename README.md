@@ -26,7 +26,7 @@ All recommendations, hints and comments are very welcome.
 <br>
 
 ### Live URL
-https://KorolyovaLara.github.io/Week2-A-Portfolio/
+https://korolyovalara.github.io/Portfolio-of-Korolyova/
 
 <br>
 
