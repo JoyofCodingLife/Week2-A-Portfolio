@@ -29,7 +29,7 @@ The following images show the web application's appearance.
 
 ![Home Screen Mobile](./assets/images/mobilePreview.png)
 
-![Website Preview](./assets/images/websitePreview.png)
+![Website Preview](./assets/images/WebsitePreview.png)
 
 <br>
 
