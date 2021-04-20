@@ -38,8 +38,7 @@ section {
 title, h2 {
     text-align: center;
     font-weight: 500;
-    margin-bottom: 6px;
-    padding-bottom: 10px;
+    margin-bottom: 5px;
     font-family: 'Lemonada', cursive; 
     font-size: 25px;
 }
@@ -50,7 +49,7 @@ img {
 
 .max-width { 
     max-width: 1300px;
-    padding: 0 80px;
+    padding: 0 px;
     margin: auto;
 }
 
@@ -58,8 +57,8 @@ img {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin-left: 15px;
+    margin-right: 15px;
     justify-content: center;
 }
   
@@ -79,7 +78,7 @@ img {
     background: var(--teal);
     position: fixed;
     width: 100%;
-    padding: 26px 0px;
+    padding: 22px 0px;
     font-family: 'Lemonada', cursive;
     text-align: end;
 }
@@ -87,12 +86,11 @@ img {
 .navbar a{
     color: var(--white);
     font-size: 15px;
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 .navbar a:hover {
     color: black;
-    font-size: 16px;
     font-weight: bold;
 }
 
@@ -128,9 +126,14 @@ img {
     padding: 20px;
 }
 
+#aboutSection{
+    margin-top: 0;
+}
+
 .about {
     margin-left: 10px;
 }
+
 .about p {
     padding: 10px 0;
 }
@@ -148,39 +151,69 @@ h3 {
 .showcase {   
     flex: 70%;
     padding: 20px;
+    margin-top: 0;
 }
 
-.first-application {
+.theBest {
     display: block;
     width: 100%;
     max-height: auto;
     margin: 10px 0 10px 0;
+    text-align: center;
 }
 
-.first-application:hover {
-    box-shadow: inset 0px 0px 5px var(--pink), 0 0 50px var(--pink);
+.theBest:hover {
+    box-shadow: inset 0px 0px 0px, 0 0 20px var(--pink);
 }
 
-/* PORTFOLIO SECTION */
-.portfolio {
-    background-color: var(--teal);
-    padding: 15px 0;
-}
-
-.portfolio-item {
-    float: left;
-    width: 33.33%;
+.features {
+    font-style: italic;
+    font-size: 14px;
     padding: 5px;
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
+.gitHubLinks {
+    margin: 10px;
 }
 
-.portfolio-item:hover {
-    box-shadow: inset 0px 0px 20px var(--pink), 0 0 50px var(--pink);
+.buttonLike {
+    color: black;
+    padding: 8px;
+}
+
+.buttonLike:hover {
+    color: var(--pink);
+}
+
+/* PORTFOLIO SECTION */
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: center;
+}
+
+.portfolio h3 {
+    color: var(--white);
+}
+
+.application {
+    flex: 31%;
+    max-width: 31%;
+    background-color: var(--teal);
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px ;
+}
+
+.application:hover {
+    box-shadow: inset 0px 0px 0px, 0 0 20px var(--pink);
+}
+
+.application img {
+    padding: 4px;
 }
 
 /* SKILLS SECTION STYLE */
@@ -227,7 +260,7 @@ h4 {
 .icon-bar a {
     display: block;
     text-align: center;
-    padding: 14px;
+    padding: 10px;
     transition: all 0.3s ease;
     color: white;
     font-size: 20px;
@@ -247,37 +280,52 @@ h4 {
     color: white;
 }
 
-.facebook {
+.email {
     background: #3B5998;
+    color: white;
+}
+
+.resume {
+    background: #a3200e;
     color: white;
 }
 
 /* FOOTER SECTION STYLE */
 footer {
-    margin: 1.5rem;
+    margin: 15px;
     text-align:center;
     padding-top: 20px;
     padding-bottom: 10px;
+    font-family: 'Lemonada', cursive;
 }
 
 /* RESPONSIVE LAYOUT */
+@media (max-width: 1400px) {
+    .application {
+        flex: 45%;
+        max-width: 45%;
+    }
+}
+
 @media (max-width: 800px) {
     .aside, .showcase {
-        width: 100%;
+        flex: 100%;
+        max-width: 100%;
     }
 
     .navbar {
       text-align: center;
-      line-height: 1.8;
       background-color: black;
     }
 
     .navbar a {
         color: var(--teal);
+        font-size: 14px;
     }
 
     .navbar a:hover{
         color: var(--white);
+        font-size: 14px;
     }
 
     .flex-container {
@@ -287,5 +335,40 @@ footer {
     
     .skills {
     width: auto;
+    }
+
+    .icon-bar {
+        position: fixed;
+        top: 90%;
+    }
+
+    .contact {
+        width: 80%;
+    }
+
+    .application {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .home {
+        font-size: 20px;
+    }
+    
+    .home .text-2 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .icon-bar {
+        position: fixed;
+        top: 80%;
+    }
+
+    .icon-bar a {
+        padding: 5px;
+        font-size: 20px;
     }
 }
