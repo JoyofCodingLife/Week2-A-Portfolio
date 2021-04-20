@@ -1,59 +1,47 @@
-# My Beta Portfolio
-* Coding Bootcamp - Assignment - Week 2 - Portfolio 
-
-        Project Status - STILL IN PROGRESS 
-<br>
-
+# My Portfolio
 ## Table of Contents
 * [General Info](#general-info)
 * [Live URL](#live-url)
-* [Walkthrough or What have done so far](#walkthrough)
 * [Webpage Preview](#webpage-preview)
-* [Contributing](#contributing)
+* [License](#license)
+
 * [Notes](#notes)
 
 <br>
 
 ## General Info
-This is my first attempt to build myself a portfolio. 
-At the moment I don't have active applications or websites, so I used placeholder images.
-This portfolio is  still "work in progress" and will be updated as my skills process.
-<br>
-PS: if you see any errors or maybe grammar mistakes - please let me know.
-<br>
-All recommendations, hints and comments are very welcome.
+This is my portfolio webpage.
+I am learning, but already creating beautiful pages and applications, plus with responsive style.
+
+Please feel welcomed to check my portfolio and find more information about me.
 
 <br>
 
-### Live URL
+## Live URL
 https://korolyovalara.github.io/Portfolio-of-Korolyova/
 
 <br>
 
-## Walkthrough
-- Design is simple (I believe) and nicely flowing into next sections.
-- Navbar is sticky, with all links are working and changing color when hovered.
-- Home screen is taking all space regardless of screen size.
-
-<br>
-
-### Webpage Preview
+## Webpage Preview
 The following images show the web application's appearance.
 
-![Home Screen Size 5114x2774](./assets/images/HomeScreen5114x2774.png)
+![Home Screen](./assets/images/homePage.png)
 
-![Home Screen Size 2854x4964](./assets/images/HomeScreen2854x4964.png)
+![Home Screen Mobile](./assets/images/mobilePreview.png)
 
-![Website Preview](./assets/WebsitePreview.png)
+![Website Preview](./assets/images/websitePreview.png)
 
 <br>
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change, so I learn and understand it better.
+## License
+Copyright © Larysa Korolyova. All rights reserved.
 
-Please make sure to update tests as appropriate.
+Licensed under the MIT license.
+
+<br>
 
 ### Notes
-I am still learning
+        I am still learning and developing my skills. 
+
 ---
 © 2021 L Korolyova

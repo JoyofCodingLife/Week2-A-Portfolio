@@ -109,6 +109,9 @@ img {
 .home .max-width{
     margin: auto 0 auto 20px;
 }
+.home-content {
+    margin-left: 25px;
+}
 
 .home .text-2 {
     font-size: 60px;
@@ -251,7 +254,7 @@ h4 {
 /* SOCIAL MEDIA ICONS STYLES */
 .icon-bar {
     position: fixed;
-    top: 50%;
+    top: 75%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
